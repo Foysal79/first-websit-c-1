@@ -37,3 +37,40 @@
 .log{
     width:150px;
 }
+.baner-size{
+    width: 400px;
+}
+.baner-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid rgb(20, 1, 26);
+    border-radius: 5px;
+    background-image: url(../images/background.png), linear-gradient(45deg, rgb(8, 8, 8), rgb(58, 58, 58));
+    color: white;
+
+}
+.titel{
+    font-size: 55px;
+    font-weight: bold;
+
+    
+}
+.pera{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.baton{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 3px;
+    border-radius: 4px;
+    margin: 10px;
+
+}
+.baner-had-paragraph{
+    margin: 40px;
+}
