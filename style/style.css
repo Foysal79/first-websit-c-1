@@ -87,6 +87,7 @@
     padding: 20px;
     margin: 20px;
     cursor: pointer;
+
 }
 .had:hover{
     color: blue;
@@ -104,7 +105,7 @@
     width: 70px;
 }
 .margin-all{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .mar{
     margin: 25px;
@@ -116,20 +117,20 @@
     height: 400px;
     box-shadow: 4px 4px 15px gray;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     color: white;
     justify-content: center;
-    border: 3px solid blueviolet;
+    border: 2px solid blueviolet;
     border-radius: 10px;
     box-shadow: 10px 10px 30px blueviolet;
 
 
 }
 .box-title{
-    padding: 20px;
+    padding: 10px;
 }
 .box-p{
-    padding: 15px;
+    padding: 5px;
 }
 .service-continer{
     display: flex;
@@ -137,11 +138,55 @@
     
 }
 .bakc{
-    background-color: rgb(108, 96, 108);
-    height:600px;
+    background-image: url("../images/background.png"), linear-gradient(45deg, rgb(8, 8, 8), rgb(58, 58, 58));
+    height: 620px;
 
 }
 .shadowi{
     border: 3px;
     box-shadow: 3px 3px 15px 1px blue;
 }
+.ex{
+    color: white;
+}
+.foter-conten{
+   background-color: rgb(21, 21, 21);
+    color: white;
+   
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.im{
+    width: 150px;
+}
+.bb{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    
+    
+}
+.ti{
+    padding: 10px;
+}
+.bol{
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+.bol:hover{
+    color: blue;
+    cursor: pointer;
+}
+.uk{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 1px;
+    padding: 2px;
+    align-items: center;
+    
+}
+
