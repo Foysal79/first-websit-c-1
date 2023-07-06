@@ -30,12 +30,12 @@
     color: blue;
 
 }
-.log{
-    width: 30px;
 
-}
 .log{
     width:150px;
+}
+.logs{
+    width: 300px;
 }
 .baner-size{
     width: 400px;
@@ -73,4 +73,30 @@
 }
 .baner-had-paragraph{
     margin: 40px;
+}
+.about-continer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.had{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.had:hover{
+    color: blue;
+}
+.ak{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aj{
+    font-size: 18px;
+    font-weight: 400;
 }
