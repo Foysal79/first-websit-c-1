@@ -100,3 +100,48 @@
     font-size: 18px;
     font-weight: 400;
 }
+.icon{
+    width: 70px;
+}
+.margin-all{
+    margin-top: 10px;
+}
+.mar{
+    margin: 25px;
+    background-color: grey;
+}
+.box{
+    background-color: black;
+    width: 250px;
+    height: 400px;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    justify-content: center;
+    border: 3px solid blueviolet;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px blueviolet;
+
+
+}
+.box-title{
+    padding: 20px;
+}
+.box-p{
+    padding: 15px;
+}
+.service-continer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bakc{
+    background-color: rgb(108, 96, 108);
+    height:600px;
+
+}
+.shadowi{
+    border: 3px;
+    box-shadow: 3px 3px 15px 1px blue;
+}
