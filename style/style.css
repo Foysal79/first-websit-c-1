@@ -2,19 +2,38 @@
     margin: 0px;
     padding: 0px;
 }
-.box{
-    background-color: red;
+.menu-content{
+    background-color: black;
+    color: white;
     padding: 30px;
-    width:110px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.menus{
+    display: flex;
+    
 
 }
-.box2{
-    background-color: aqua;
+.item{
+    margin-right: 15px;
+    padding-right: 9px;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
 }
-.box3{
-    background-color: darkgreen;
+ /* kono leker opur niagale color change hobe*/
+.item:hover{ 
+    color: blue;
+
 }
-.contener{
-    display: flex;
-    justify-content :space-around;
+.log{
+    width: 30px;
+
+}
+.log{
+    width:150px;
 }
