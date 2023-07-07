@@ -181,12 +181,23 @@
     cursor: pointer;
 }
 .uk{
-    text-align: center;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     color: white;
-    margin: 1px;
-    padding: 2px;
+    justify-content: center;
     align-items: center;
     
+    
+}
+hr{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.copy{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
